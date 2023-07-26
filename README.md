@@ -6,11 +6,7 @@ git submodule update --init
 cd mpy-cross
 make -j4
 cd ../ports/stm32/boards
-<<<<<<< HEAD
 git clone https://github.com/cd64cd64/COOKIE-F412R.git COOKIE
-=======
-git clone https://github.com/cd64cd64/COOKIE-F412R.git WeAct_F411CE
->>>>>>> 738ef69cb5c49790e41439c398a47850c3800668
 cd ..
 make
 
